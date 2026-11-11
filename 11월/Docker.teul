@@ -1,0 +1,26 @@
+Docker 사용법
+
+Chrome에서 Docker Desktop Download를 검색한다.
+Docker Desktop download사이트(https://www.docker.com/products/docker-desktop/)에 들어간다.
+
+windows사용자는 ctrl, shift, esc를 누르고,
+Mac사용자는 왼쪽 상단 애플 로고 체크 후 이 Mac에 관하여를 클릭하시고, 칩을 확인하시면 됩니다.
+
+-windows
+Intel, Amd CPU => Download for Window - Amd64 클릭
+이외 SnapGragon 등... => Download for Window - Arm64 클릭
+
+-Mac
+Apple CPU => Download for Mac - Apple Silicon 클릭
+Intel CPU => Download for Mac - intel Chip 클릭
+
+설치 후
+Docker Desktop Installer.exe파일 클릭
+
+Per-user installation 클릭 후
+WSL2 확인
+(기본으로 설정되어있음)
+*아래 Add shortcut to desktop은 바탕화면에 Docker바로가기를 만들건지 물어보는 것이라 편한대로 클릭.
+
+Installation succeeded라고 나오면 성공
+close 클릭
